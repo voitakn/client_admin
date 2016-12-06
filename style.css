@@ -1,0 +1,23 @@
+
+.thumb-wrap {
+    height: 100px;
+    border: #dedede 3px solid;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #000000;
+    margin: 5px;
+    padding: 4px;
+}
+.thumb-wrap > .thumb {
+    height: 90px;
+    text-align: center;
+    position: relative;
+}
+.thumb-wrap > .thumb > img {
+    height: 100%;
+}
+.thumb-wrap > .x-editable {
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    padding: 5px;
+}
